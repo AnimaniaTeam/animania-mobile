@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "animania-mobile",
+    "slug": "animania-mobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
