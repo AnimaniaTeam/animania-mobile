@@ -1,24 +1,11 @@
-import React from "react"
-import { StatusBar } from 'expo-status-bar'
-import { StyleSheet, Text, View } from 'react-native'
+import { AppProvider } from '@hooks/index';
+
+import { Routes } from '@routes/index';
+
+import { Loading } from '@components/Loading';
 
 export default function App() {
+  const fontsLoaded = true;
 
-
-
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <AppProvider>{fontsLoaded ? <Routes /> : <Loading />}</AppProvider>;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
