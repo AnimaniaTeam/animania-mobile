@@ -1238,6 +1238,16 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.44.0.tgz#961a5903c74139390478bdc808bcde3fc45ab7af"
   integrity sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==
 
+"@expo-google-fonts/lato@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/lato/-/lato-0.2.3.tgz#32456b5c49d9f84d2b22ecfa8f50027555439e9c"
+  integrity sha512-X56FEZn2GNYtI2/UqyOps7TShuDwi/k9JKa7VzM0x2ywBOnhTtXGq2IsZyNPzT9KnQA/ID84F9yiMS8e3obu0g==
+
+"@expo-google-fonts/skranji@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/skranji/-/skranji-0.2.3.tgz#3886221f0c502323c814b1da67440e04ea439acb"
+  integrity sha512-0jcWn+517mOb64So98SLkrY/jn2ejqhGfHGy4icSuSq/f8Ugv30rzc6aEXlIhaJsD2Hy0xAeoeU4kTvCmcnYZA==
+
 "@expo/bunyan@4.0.0", "@expo/bunyan@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@expo/bunyan/-/bunyan-4.0.0.tgz#be0c1de943c7987a9fbd309ea0b1acd605890c7b"
@@ -4874,7 +4884,7 @@ expo-file-system@15.4.2, expo-file-system@~15.4.0, expo-file-system@~15.4.2:
   dependencies:
     uuid "^3.4.0"
 
-expo-font@^11.1.1, expo-font@~11.4.0:
+expo-font@~11.4.0:
   version "11.4.0"
   resolved "https://registry.yarnpkg.com/expo-font/-/expo-font-11.4.0.tgz#e2d31c0bb76ba3c37c2d84703a49aeafc3afef28"
   integrity sha512-nkmezCFD7gR/I6R+e3/ry18uEfF8uYrr6h+PdBJu+3dawoLOpo+wFb/RG9bHUekU1/cPanR58LR7G5MEMKHR2w==
