@@ -10,25 +10,23 @@ import {
   View,
 } from 'native-base';
 
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+
 import logo from '@assets/png/marca.png';
 import notImage from '@assets/jpg/not-image.jpg';
 
 import { data } from '../../utils/data';
 
-export function Home() {
+export function AnimeReleases() {
+  const { top } = useSafeAreaInsets();
   return (
-    <SafeAreaView>
-      <StatusBar
-        translucent
-        barStyle="dark-content"
-        backgroundColor="transparent"
-      />
+    <>
+      <StatusBar barStyle="dark-content" backgroundColor="#FBD38D" />
 
-      <View width={'full'} pt={'38px'}>
+      <View width={'full'} height={'full'} pt={top}>
         <FlatList
           ListHeaderComponent={
-            <View alignItems={'center'} pb={'40px'}>
+            <View alignItems={'center'} pb={'40px'} pt={'38px'}>
               <Image source={logo} alt="logo" />
             </View>
           }
@@ -185,6 +183,6 @@ export function Home() {
           )}
         />
       </View>
-    </SafeAreaView>
+    </>
   );
 }
